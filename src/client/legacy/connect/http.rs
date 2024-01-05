@@ -65,6 +65,7 @@ pub struct HttpInfo {
 }
 
 #[derive(Clone)]
+#[allow(dead_code)]
 struct Config {
     connect_timeout: Option<Duration>,
     enforce_http: bool,
